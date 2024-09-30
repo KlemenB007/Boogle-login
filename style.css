@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* Align items, namesto content, height 100vh v container namest body!*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* Problem z razmikom med notranjimi elementi(rešil gap)*/
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    gap: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 4px 12px rgba(186, 186, 186);
+    margin-bottom: 20px;
+    background-color: rgb(231, 231, 231);
+}
+.underlogin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 110px;
+    width: 500px;
+}
+/* Razporeditev footerja je bla skor impossimble task*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 98vw;
+    border-top: 1px solid gray;
+}
+#photo1 {
+    width: 250px;
+    height: 75px;
+    margin-top: 10px;
+}
+#photo2 {
+    width: 100px;
+    height: 100px;
+    border: 5px;
+    border-radius: 90px;
+    margin-bottom: 20px;
+}
+#p1 {
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+#p2 {
+    font-size: x-large;
+}
+#p3 {
+    font-size: large;
+    margin-top: 20px;
+}
+.icons {
+    display: flex;
+    gap: 20px;
+    
+}
+/* Problem z boarderji, kako ga pravilno napisat + širina input in button, rešeno z box sizingom*/
+input {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(238, 238, 178);
+    border: 1px solid rgb(97, 97, 97);
+    box-sizing: border-box;
+}
+button {
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(95, 123, 251);
+    color: white;
+}
+#pomoc{
+    font-size: smaller;
+    margin-left: 134px;
+}
+.footer a {
+    margin-right: 40px;
+    color: rgb(65, 65, 65);
+}
+
+.footer select {
+    margin-left: auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(64, 64, 224);
+    cursor: pointer;
+}
+
